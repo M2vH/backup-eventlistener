@@ -1,0 +1,5 @@
+# ignore the m2vh.* files
+m2vh.*
+*.tmp
+*.temp
+*.zip
