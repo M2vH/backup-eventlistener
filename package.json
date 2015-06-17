@@ -1,0 +1,12 @@
+{
+    "name": "m2vh.backup-eventlistener",
+    "title": "Listen for Save to Backup",
+    "description": "No Description yet",
+    "homepage": "Insert GitHub Repo here",
+    "version": "0.0.1",
+    "author": "Marco M. von Hagen <m4rco.mail@web.de>",
+    "license": "GPL v3",
+    "engines": {
+        "brackets": ">=1.4.0"
+    }
+}
