@@ -1,6 +1,8 @@
 /*jslint vars: true, plusplus: true, devel: true, nomen: true, indent: 4, maxerr: 50, browser: true */
 /*global $, define, brackets, Mustache */
 
+// Changes made when in branch `master`.
+
 //DESCRIPTION:Add an EventListener on Document.afterSave().
 
 define(function (require, exports, module) {
