@@ -1,8 +1,8 @@
 {
     "name": "m2vh.backup-eventlistener",
     "title": "Listen for Save to Backup",
-    "description": "No Description yet",
-    "homepage": "Insert GitHub Repo here",
+    "description": "This extension creates backups after files saved.",
+    "homepage": "https://github.com/M2vH/backup-eventlistener.git",
     "version": "0.0.1",
     "author": "Marco M. von Hagen <m4rco.mail@web.de>",
     "license": "GPL v3",
