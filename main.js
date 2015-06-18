@@ -2,6 +2,7 @@
 /*global $, define, brackets, Mustache */
 
 // Changes made when in branch `master`.
+// Added line in master
 
 //DESCRIPTION:Add an EventListener on Document.afterSave().
 
