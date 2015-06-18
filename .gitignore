@@ -1,5 +1,19 @@
+# ignore the OSX
+.DS_STORE
+
 # ignore the m2vh.* files
 m2vh.*
+
+# ignore the temporaries
 *.tmp
 *.temp
+
+# ignore the zip we curl
+# we may need a folder in the future
+zip/
 *.zip
+
+# we should use a ToDo
+TODO*
+ToDo*
+todo*

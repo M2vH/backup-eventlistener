@@ -22,7 +22,7 @@ define(function (require, exports, module) {
     }
     
     function my_main() {
-        alert "reached my_main.";
+        window.alert("reached my_main.");
         doc.addEventListener('afterSave', function (theEvent) {
 
             // Put the rest of your code here
@@ -43,32 +43,29 @@ define(function (require, exports, module) {
                     var datestamp = now.getFullYear().toString() + " " + two_digit(now.getMonth() + 1) + " " + two_digit(now.getDate());
                     var timestamp =  two_digit(now.getHours()) + two_digit(now.getMinutes()) + two_digit(now.getSeconds());
                     var target_folder = Directory.create(backup_path + "/" + datestamp);
-                    if (target_folder.exists == false ) {target_folder.create(); }
+                    if (target_folder.exists === false) {target_folder.create(); }
                     var target_file = target_folder.toString() + "/" + timestamp + "_" + doc_name;
-                    if (doc_file.copy(target_file) == false) {
+                    if (doc_file.copy(target_file) === false) {
                         alert("Backup error\rCould not create backup copy.");
                     }
                 }
             } catch (e) {
-            alert(e);
+                alert(e);
             }
             doc.save();
 
              /// End of CodeSnippet
 
-            };
+        });
 
 
 
-}
+    }
 
     // check, if there is document
     if (doc !== null) {
         my_main();
-    } 
-
-    
-
+    }
     
 }); // End of define
 
